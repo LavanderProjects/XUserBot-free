@@ -1,10 +1,10 @@
-# Copyright (C) 2023 RobotgerDev
+# Copyright (C) 2023 LavanderProjects.
 #
 # Licensed under the GPL-3.0 License;
 # you may not use this file except in compliance with the License.
-#
 
-# TeloidUserBot 
+# XUserBot - LavanderProjects
+
 from userbot import PATTERNS, CMD_HELP, CMD_HELP_BOT
 
 class CmdHelp:
@@ -103,3 +103,5 @@ class CmdHelp:
             return 'veya'
         elif text == 'USERNAMES':
             return '<kullanıcı ad(lar)ı>'
+        
+        

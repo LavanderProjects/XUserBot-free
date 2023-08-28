@@ -1,56 +1,26 @@
-# Copyright (C) 2023 RobotgerDev
-#
-# Licensed under the GPL-3.0 License;
-# you may not use this file except in compliance with the License.
-#
-
-# TeloidUserBot 
-from . import LANGUAGE, LOGS, bot, PLUGIN_CHANNEL_ID
+from userbot import LANGUAGE, LOGS
 from json import loads, JSONDecodeError
 from os import path, remove
 from telethon.tl.types import InputMessagesFilterDocument
 
-pchannel = bot.get_entity(PLUGIN_CHANNEL_ID)
+
+
+
 LOGS.info("Dil dosyası yükleniyor...")
 LANGUAGE_JSON = None
 
-for dil in bot.iter_messages(pchannel, filter=InputMessagesFilterDocument):
-    if ((len(dil.file.name.split(".")) >= 2) and (dil.file.name.split(".")[1] == "teloidjson")):
-        if path.isfile(f"./userbot/language/{dil.file.name}"):
-            try:
-                LANGUAGE_JSON = loads(open(f"./userbot/language/{dil.file.name}", "r").read())
-            except JSONDecodeError:
-                dil.delete()
-                remove(f"./userbot/language/{dil.file.name}")
 
-                if path.isfile("./userbot/language/DEFAULT.teloidjson"):
-                    LOGS.warn("Varsayılan dil dosyası kullanılıyor...")
-                    LANGUAGE_JSON = loads(open(f"./userbot/language/DEFAULT.teloidjson", "r").read())
-                else:
-                    raise Exception("Your language file is invalid")
-        else:
-            try:
-                DOSYA = dil.download_media(file="./userbot/language/")
-                LANGUAGE_JSON = loads(open(DOSYA, "r").read())
-            except JSONDecodeError:
-                dil.delete()
-                if path.isfile("./userbot/language/DEFAULT.teloidjson"):
-                    LOGS.warn("Varsayılan dil dosyası kullanılıyor...")
-                    LANGUAGE_JSON = loads(open(f"./userbot/language/DEFAULT.teloidjson", "r").read())
-                else:
-                    raise Exception("Your language file is invalid")
-        break
 
 if LANGUAGE_JSON == None:
-    if path.isfile(f"./userbot/language/{LANGUAGE}.teloidjson"):
+    if path.isfile(f"./userbot/language/{LANGUAGE}.xjson"):
         try:
-            LANGUAGE_JSON = loads(open(f"./userbot/language/{LANGUAGE}.teloidjson", "r",encoding='utf-8').read())
+            LANGUAGE_JSON = loads(open(f"./userbot/language/{LANGUAGE}.xjson", "r",encoding='utf-8').read())
         except JSONDecodeError:
             raise Exception("Invalid json file")
     else:
-        if path.isfile("./userbot/language/DEFAULT.teloidjson"):
+        if path.isfile("./userbot/language/DEFAULT.xjson"):
             LOGS.warn("Varsayılan dil dosyası kullanılıyor...")
-            LANGUAGE_JSON = loads(open(f"./userbot/language/DEFAULT.teloidjson", "r").read())
+            LANGUAGE_JSON = loads(open(f"./userbot/language/DEFAULT.xjson", "r").read())
         else:
             raise Exception(f"Didn't find {LANGUAGE} file")
 

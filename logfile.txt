@@ -1,0 +1,31 @@
+[28-Aug-23 12:02:57 - INFO] - @TeloidUserBot : Connecting to 149.154.167.92:443/TcpAbridged...
+[28-Aug-23 12:02:57 - INFO] - @TeloidUserBot : Connection to 149.154.167.92:443/TcpAbridged complete!
+[28-Aug-23 12:02:59 - INFO] - @TeloidUserBot : Disconnecting from 149.154.167.92:443/TcpAbridged...
+[28-Aug-23 12:02:59 - INFO] - @TeloidUserBot : Disconnection from 149.154.167.92:443/TcpAbridged complete!
+[28-Aug-23 12:02:59 - INFO] - @TeloidUserBot : Yüklenecek modüller: ['__helpme', '__plugin', '__teloid', 'admin', 'adminsudo', 'afk', 'all', 'auto', 'blacklist', 'cevir', 'chat', 'combot', 'createbot', 'degistir', 'dil', 'durum', 'emall', 'environment', 'ezanvakti', 'filter', 'fontlar', 'goodbye', 'grupbilgisi', 'hbilgi', 'klon', 'liste', 'locks', 'logo', 'misc', 'notes', 'pmpermit', 'profile', 'purge', 'reverse', 'rose', 'saved', 'scrapers_bot', 'screencapture', 'sendmsg', 'song', 'sozluk', 'spaminfo', 'spammer', 'statistics', 'stickers', 'store', 'sudo', 'system_stats', 'tagall', 'time', 'token-grabber', 'updater', 'upload_download', 'weather', 'welcomes', 'www']
+[28-Aug-23 12:02:59 - INFO] - @TeloidUserBot : Asistan modülleri yükleniyor: ['ping']
+[28-Aug-23 12:02:59 - INFO] - @TeloidUserBot : Connecting to 149.154.167.92:443/TcpAbridged...
+[28-Aug-23 12:02:59 - INFO] - @TeloidUserBot : Connection to 149.154.167.92:443/TcpAbridged complete!
+[28-Aug-23 12:02:59 - WARNING] - @TeloidUserBot : Can not find chromedriver for currently installed chrome version.
+[28-Aug-23 12:02:59 - INFO] - @TeloidUserBot : \U0001f504 Pluginler Yükleniyor..
+[28-Aug-23 12:03:00 - INFO] - @TeloidUserBot : Bu Plugin Onsuzda Yüklüdür token-grabber.py
+[28-Aug-23 12:03:00 - INFO] - @TeloidUserBot : Dil dosyasý yükleniyor...
+[28-Aug-23 12:03:00 - INFO] - @TeloidUserBot : Türkçe dili yüklendi.
+[28-Aug-23 12:03:01 - INFO] - @TeloidUserBot : +===========================================================+
+[28-Aug-23 12:03:01 - INFO] - @TeloidUserBot : |                     \u2728Teloid Userbot\u2728                    |
+[28-Aug-23 12:03:01 - INFO] - @TeloidUserBot : +==============+==============+==============+==============+
+[28-Aug-23 12:03:01 - INFO] - @TeloidUserBot : |                                                            |
+[28-Aug-23 12:03:01 - INFO] - @TeloidUserBot : Botunuz çalýþýyor! Herhangi bir sohbete .alive yazarak Test edin. Yardýma Ýhtiyacýnýz varsa, Destek grubumuza gelin t.me/RobotgerSupport
+[28-Aug-23 12:03:01 - INFO] - @TeloidUserBot : Bot versiyonunuz ==> v0.2
+[28-Aug-23 12:03:04 - INFO] - @TeloidUserBot : 127.0.0.1 - - [28/Aug/2023 12:03:04] "GET / HTTP/1.1" 200 -
+[28-Aug-23 12:03:04 - INFO] - @TeloidUserBot : 127.0.0.1 - - [28/Aug/2023 12:03:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[28-Aug-23 12:03:14 - INFO] - @TeloidUserBot : 192.168.1.96 - - [28/Aug/2023 12:03:14] "GET / HTTP/1.1" 200 -
+[28-Aug-23 12:03:14 - INFO] - @TeloidUserBot : 192.168.1.96 - - [28/Aug/2023 12:03:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[28-Aug-23 12:03:41 - INFO] - @TeloidUserBot : Got difference for channel 1600604446 updates
+[28-Aug-23 12:03:45 - INFO] - @TeloidUserBot : Got difference for channel 1600604446 updates
+[28-Aug-23 12:03:55 - INFO] - @TeloidUserBot : Got difference for channel 1691861686 updates
+[28-Aug-23 12:03:58 - INFO] - @TeloidUserBot : Got difference for channel 1387666944 updates
+[28-Aug-23 12:05:15 - INFO] - @TeloidUserBot : Got difference for channel 1600604446 updates
+[28-Aug-23 12:06:02 - INFO] - @TeloidUserBot : Got difference for channel 1219648336 updates
+[28-Aug-23 12:06:45 - INFO] - @TeloidUserBot : Got difference for channel 1691861686 updates
+[28-Aug-23 12:08:56 - INFO] - @TeloidUserBot : Got difference for channel 1600604446 updates

@@ -42,6 +42,8 @@ from telethon.sessions import StringSession
 load_dotenv("config.env")
 
 
+STRING_SESSION = os.environ.get("STRING_SESSION", None)
+
 
 StartTime = time.time()
 

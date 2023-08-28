@@ -1,5 +1,6 @@
 aiohttp
 telethon
+Flask
 aria2p
 async_generator
 bs4

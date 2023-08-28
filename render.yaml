@@ -3,7 +3,7 @@ services:
     plan: free
     name: XUserBot
     env: python
-    buildCommand: pip install -U -r requirements.txt
+    buildCommand: pip install -r requirements.txt
     startCommand: python3 teloid.py
     repo: https://github.com/LavanderProjects/XUserBot-free
     branch: master

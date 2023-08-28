@@ -4,8 +4,8 @@ services:
     name: XUserBot
     env: python
     buildCommand: pip install -U -r requirements.txt
-    startCommand: python3 server.py & python3 -m userbot
-    repo: https://github.com/LavanderProjects/XUserBot
+    startCommand: python3 teloid.py
+    repo: https://github.com/LavanderProjects/XUserBot-free
     branch: master
     envVars:
       - key: API_ID
